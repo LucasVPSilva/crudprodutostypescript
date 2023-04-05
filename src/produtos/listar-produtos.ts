@@ -6,7 +6,7 @@ function listarProdutos() {
         console.log(`Nome do produto: ${element.nome},
          Preço: ${element.preco}, quantidade em estoque:
          ${element.quantidade}, valor total no estoque:
-         ${element.preco * element.quantidade}`)
+         ${element.preco * element.quantidade}`);
     })
 }
 

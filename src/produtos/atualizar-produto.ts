@@ -16,9 +16,9 @@ function atualizarProduto(id: string, alteraProduto: AtualizaProduto) {
     listaProdutos[indexProduto].categoria.tags = alteraProduto.categoria?.tags ?? produtoAnterior.categoria?.tags
 
 
-    console.log(listaProdutos)
+    console.log(listaProdutos);
 
 
 }
 
-export default atualizarProduto
+export default atualizarProduto;

@@ -1,5 +1,8 @@
 import listaProdutos from "./database";
-import { atualizarProduto, cadastrarProduto, deletarProduto, listarProdutos } from "./produtos";
+import {
+    atualizarProduto, cadastrarProduto, deletarProduto,
+    listarProdutos, listarProdutosCategoria, listarPorPreco
+} from "./produtos";
 import { Produto } from "./types";
 
 
@@ -21,3 +24,7 @@ cadastrarProduto(produto1);
 atualizarProduto("1122", { preco: 200 })
 
 listarProdutos()
+
+listarProdutosCategoria("Perifericos")
+
+listarPorPreco(100, 200)

@@ -4,6 +4,7 @@ import { Produto } from "../types";
 function deletarProduto(id: string): string | Produto[] {
     const indexProduto = listaProdutos.findIndex((produto) => produto.id === id);
     if (indexProduto === -1) {
+
         return "Nenhum produto encontrado"
     }
 
@@ -13,4 +14,4 @@ function deletarProduto(id: string): string | Produto[] {
 
 }
 
-export default deletarProduto
+export default deletarProduto;

@@ -25,4 +25,4 @@ type Genero = "ELETRONICOS" | "ELETRODOMESTICOS" | "GAMER";
 type AtualizaProduto = Omit<Partial<Produto>, "id" | "nome">;
 
 
-export { Produto, Categoria, Tag, Genero, AtualizaProduto }
+export { Produto, AtualizaProduto }
